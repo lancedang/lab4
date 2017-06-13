@@ -4,6 +4,16 @@ public class Assignment extends GradedItem {
 	private String specification;
 	private String data;
 
+	/**
+	 * 
+	 * @param name
+	 * @param month
+	 * @param day
+	 * @param hour
+	 * @param minute
+	 * @param specification
+	 * @param data
+	 */
 	public Assignment(String name, int month, int day, int hour, int minute,
 			String specification, String data) {
 		super(name, month, day, hour, minute);

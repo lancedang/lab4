@@ -8,6 +8,14 @@ public class GradedItem {
 	private int hour;
 	private int minute;
 
+	/**
+	 * 
+	 * @param name
+	 * @param month
+	 * @param day
+	 * @param hour
+	 * @param minute
+	 */
 	public GradedItem(String name, int month, int day, int hour, int minute) {
 		super();
 		this.name = name;

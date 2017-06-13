@@ -3,6 +3,15 @@ package com.ppdai.tutorial;
 public class Exam extends GradedItem {
 	private String problemSet;
 
+	/**
+	 * 
+	 * @param name
+	 * @param month
+	 * @param day
+	 * @param hour
+	 * @param minute
+	 * @param problemSet
+	 */
 	public Exam(String name, int month, int day, int hour, int minute,
 			String problemSet) {
 		super(name, month, day, hour, minute);

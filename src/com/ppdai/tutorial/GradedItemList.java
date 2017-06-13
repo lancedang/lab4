@@ -6,6 +6,9 @@ import java.util.List;
 public class GradedItemList {
 	private List<GradedItem> gradedItems;
 
+	/**
+	 * 
+	 */
 	public GradedItemList() {
 		// TODO Auto-generated constructor stub
 		gradedItems = new ArrayList<GradedItem>();
